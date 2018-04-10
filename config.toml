@@ -22,7 +22,7 @@ publishDir = "ivymarkwell.github.io"
     weight = 1
 
 [[menu.main]]
-    url = "/about"
+    url = "/about/"
     name = "About Me"
     weight = 2
 
