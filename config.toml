@@ -2,6 +2,7 @@ baseURL = "https://ivymarkwell.github.io/"
 languageCode = "en-us"
 title = "Ivy Markwell"
 theme = "minimal"
+publishDir = "ivymarkwell.github.io"
 
 [params]
     author = "Ivy Markwell"
@@ -21,14 +22,19 @@ theme = "minimal"
     weight = 1
 
 [[menu.main]]
+    url = "/about"
+    name = "About Me"
+    weight = 2
+
+[[menu.main]]
     url = "/post/"
     name = "Posts"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     url = "/project/"
     name = "Projects"
-    weight = 3
+    weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
