@@ -6,7 +6,7 @@ publishDir = "ivymarkwell.github.io"
 
 [params]
     author = "Ivy Markwell"
-    description = "Software Developer"
+    description = "Software Engineer"
     githubUsername = "#"
     accent = "white"
     showBorder = true
