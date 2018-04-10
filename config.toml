@@ -1,16 +1,16 @@
-baseURL = "http://ivymarkwell.github.io/"
+baseURL = "https://ivymarkwell.github.io/"
 languageCode = "en-us"
 title = "Ivy Markwell"
 theme = "minimal"
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
+    author = "Ivy Markwell"
+    description = "Software Developer"
     githubUsername = "#"
-    accent = "red"
+    accent = "white"
     showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
+    backgroundColor = "lightblue"
+    font = "Happy Monkey" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
@@ -35,26 +35,21 @@ theme = "minimal"
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:me@example.com"
+    url = "mailto:me@ivymarkwell.com"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/username/"
+    url = "https://github.com/ivymarkwell"
     name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
+    url = "https://medium.com/@ivymarkwell"
+    name = "medium"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.linkedin.com/in/ivy-markwell-257540127"
     name = "linkedin"
     weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
