@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Ivy Markwell"
 theme = "minimal"
 publishDir = "ivymarkwell.github.io"
+pluralizeListTitles = false
 
 [params]
     author = "Ivy Markwell"
@@ -27,13 +28,13 @@ publishDir = "ivymarkwell.github.io"
     weight = 2
 
 [[menu.main]]
-    url = "/post/"
-    name = "Posts"
+    url = "/writing/"
+    name = "Writing"
     weight = 3
 
 [[menu.main]]
-    url = "/project/"
-    name = "Projects"
+    url = "/photography/"
+    name = "Photography"
     weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar
