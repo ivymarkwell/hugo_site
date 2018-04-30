@@ -28,14 +28,9 @@ pluralizeListTitles = false
     weight = 2
 
 [[menu.main]]
-    url = "/writing/"
-    name = "Writing"
-    weight = 3
-
-[[menu.main]]
     url = "/photography/"
     name = "Photography"
-    weight = 4
+    weight = 3
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used

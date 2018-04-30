@@ -13,16 +13,16 @@ draft: false
 </div>
 
 <div align = "center">
-    <img src = "https://imageshack.com/a/img924/3954/BQ7UHQ.jpg" style = "width: 300px;"/>
-    <img src = "https://imageshack.com/a/img922/5198/Q8msFT.jpg" style = "width: 300px;"/>
+    <img src = "https://imageshack.com/a/img924/3954/BQ7UHQ.jpg" style = "width: 325px;"/>
+    <img src = "https://imageshack.com/a/img922/5198/Q8msFT.jpg" style = "width: 325px;"/>
 <div>
 
 <div align = "center">
-    <img src = "https://imageshack.com/a/img923/2853/UE1Wo0.jpg" style = "width: 300px;"/>
-    <img src = "https://imageshack.com/a/img923/4940/zvzQ78.jpg" style = "width: 300px;"/>
+    <img src = "https://imageshack.com/a/img923/2853/UE1Wo0.jpg" style = "width: 325px;"/>
+    <img src = "https://imageshack.com/a/img923/4940/zvzQ78.jpg" style = "width: 325px;"/>
 <div>
 
 <div align = "center">
-    <img src = "https://imageshack.com/a/img924/5783/ABSJb0.jpg" style = "width: 300px;"/>
-    <img src = "https://imageshack.com/a/img922/8233/oPS9gx.jpg" style = "width: 300px;"/>
+    <img src = "https://imageshack.com/a/img924/5783/ABSJb0.jpg" style = "width: 325px;"/>
+    <img src = "https://imageshack.com/a/img922/8233/oPS9gx.jpg" style = "width: 325px;"/>
 <div>
