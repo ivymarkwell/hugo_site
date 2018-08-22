@@ -3,19 +3,7 @@ title: "About Me"
 date: 2018-04-09T21:26:53-04:00
 draft: false
 ---
-
-<style>
-    .content-shadow-container {
-        background-color: #ffffff;
-        box-shadow: 0px 10px 20px rgba(0,0,0,.5);
-        padding: 2em;
-        margin: 2em;
-    }
-
-    .content-description-container {
-        text-align: center;
-    }
-</style>
+<link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container">
     <img src="https://imageshack.com/a/img923/3817/h3jndF.jpg"/>
