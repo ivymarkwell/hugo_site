@@ -6,7 +6,7 @@ draft: false
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>This is the day I forgot my camera. So unfortunately all the pictures that I took during my air balloon ride were on my iPhone 7. Overall it was really amazing,still scary, but a great experience. I met a really nice Chinese couple who were honeymooning through Spain along with the staff from Ballooning Barcelona. Afterwards, I walked to Park Güell and through the northern part of Barcelona and finished at a really nice sushi resturant called Robata.</p>
+    <p>This is the day I forgot my camera in my hotel. So unfortunately all the pictures that I took during my air balloon ride were on my iPhone 7. Overall it was really amazing, still scary, but a great experience. I met a really nice Chinese couple who were honeymooning through Spain along with the staff from Ballooning Barcelona. Afterwards, I walked to Park Güell and through the northern part of Barcelona and finished at a really nice sushi resturant called Robata.</p>
 </div>
 
 <div class="content-shadow-container">
