@@ -1,6 +1,6 @@
 ---
 title: "Spain Day 3"
-date: 2018-09-25T23:53:51-04:00
+date: 2018-09-03T23:53:51-04:00
 draft: false
 ---
 <link href="/styles/common.css" rel="stylesheet">
