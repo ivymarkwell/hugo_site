@@ -10,7 +10,6 @@ pluralizeListTitles = false
     description = "Software Engineer"
     githubUsername = "#"
     accent = "black"
-    showBorder = true
     backgroundColor = "#c0ccd6"
     font = "Roboto"
     highlight = true

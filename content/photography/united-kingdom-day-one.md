@@ -10,17 +10,25 @@ draft: false
 </div>
 
 <div class="content-long-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/922/1tVp99.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/1tVp99.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/1tVp99.jpg"/>
+    </a>
 </div>
 
 <div class="content-long-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/921/KdR1aW.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/KdR1aW.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/KdR1aW.jpg"/>
+    </a>
 </div>
 
 <div class="content-long-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/921/mLm8SX.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/mLm8SX.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/mLm8SX.jpg"/>
+    </a>
 </div>
 
 <div class="content-long-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/923/r9dNRa.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/r9dNRa.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/r9dNRa.jpg"/>
+    </a>
 </div>

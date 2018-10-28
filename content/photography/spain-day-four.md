@@ -10,41 +10,61 @@ draft: false
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/923/m4TrWn.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/m4TrWn.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/m4TrWn.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/922/4T3qw6.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/4T3qw6.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/4T3qw6.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/921/ApOAKJ.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/ApOAKJ.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/ApOAKJ.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/922/HNWbKJ.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/HNWbKJ.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/HNWbKJ.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/924/sKHPnH.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/924/sKHPnH.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/924/sKHPnH.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/921/8Kjwuy.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/8Kjwuy.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/8Kjwuy.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/922/fn9R39.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/fn9R39.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/fn9R39.jpg"/>
+    </a>
 </div>
 
 <div class="content-long-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/921/5hyKg3.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/5hyKg3.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/5hyKg3.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/922/OeVksS.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/OeVksS.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/OeVksS.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/922/d1ysYy.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/d1ysYy.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/d1ysYy.jpg"/>
+    </a>
 </div>

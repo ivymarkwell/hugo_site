@@ -10,29 +10,43 @@ draft: false
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/923/cxzz7X.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/cxzz7X.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/cxzz7X.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/924/BQ7UHQ.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/924/BQ7UHQ.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/924/BQ7UHQ.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/922/Q8msFT.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/Q8msFT.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/Q8msFT.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/923/UE1Wo0.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/UE1Wo0.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/UE1Wo0.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/923/zvzQ78.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/zvzQ78.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/zvzQ78.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/924/ABSJb0.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/924/ABSJb0.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/924/ABSJb0.jpg"/>
+    </a>
 </div>
 
 <div class="content-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/640x480q90/922/oPS9gx.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/oPS9gx.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/oPS9gx.jpg"/>
+    </a>
 </div>
