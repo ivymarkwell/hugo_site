@@ -6,6 +6,10 @@ draft: false
 ---
 <link href="/styles/common.css" rel="stylesheet">
 
+<div class="content-description-container">
+    <p>Some of the people and non-people I've encountered and gotten to take a couple pictures of.</p>
+</div>
+
 <div class="content-shadow-container name-container">
     <p>Nico Vergara</p>
 </div>
