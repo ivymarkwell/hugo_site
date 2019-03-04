@@ -3,10 +3,12 @@ title: "Heidelberg Project"
 date: 2018-04-22T13:41:24-04:00
 draft: false
 ---
+
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>The Heidelberg Project is an artistic protest done by Tyree Guyton after the deterioration of Heidelberg street during the Detroit 1967 riots.</p>
+    <p>The Heidelberg Project is an artistic protest done by Tyree Guyton after the deterioration of Heidelberg street
+    during the Detroit 1967 riots.</p>
 </div>
 
 <div class="content-shadow-container">

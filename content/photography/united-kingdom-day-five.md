@@ -3,10 +3,15 @@ title: "United Kingdom Day 5"
 date: 2018-09-09T00:14:23-04:00
 draft: false
 ---
+
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>My last day of my trip was one of the most eventful. I took a free bus to the Brecon National Park an hour north of Cardiff. I ended up getting off at the wrong place with a group of five other people in the middle of the park with no cell service. I was able to eventually catch another bus on the side of the road to the small city I was going to and it was beautiful. I saw the sunset behind the mountains of the park on the small city in Brecon and then I took the bus back to Cardiff.</p>
+    <p>My last day of my trip was one of the most eventful. I took a free bus to the Brecon National Park an hour north
+    of Cardiff. I ended up getting off at the wrong place with a group of five other people in the middle of the park with
+    no cell service. I was able to eventually catch another bus on the side of the road to the small city I was going to
+    and it was beautiful. I saw the sunset behind the mountains of the park on the small city in Brecon and then I took
+    the bus back to Cardiff.</p>
 </div>
 
 <div class="content-shadow-container">

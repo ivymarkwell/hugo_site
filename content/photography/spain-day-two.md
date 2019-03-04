@@ -3,10 +3,14 @@ title: "Spain Day 2"
 date: 2018-09-02T22:34:10-04:00
 draft: false
 ---
+
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>My second day in Spain I mostly spent climbing Monserrat. I took the Aeri de Monserrat cable car early in the morning to the Montserrat Monastery. I spent about an hour to two hours climbing to Sant Jeroni with a girl I met from Quebec, Canada. I went back into Barcelona in the evening to eat and relax and on the way back to my hotel I ran into two little girls playing a game of pretending to sell toys on the street.</p>
+    <p>My second day in Spain I mostly spent climbing Monserrat. I took the Aeri de Monserrat cable car early in the morning
+    to the Montserrat Monastery. I spent about an hour to two hours climbing to Sant Jeroni with a girl I met from Quebec, Canada.
+    I went back into Barcelona in the evening to eat and relax and on the way back to my hotel I ran into two little girls
+    playing a game of pretending to sell toys on the street.</p>
 </div>
 
 <div class="content-shadow-container">

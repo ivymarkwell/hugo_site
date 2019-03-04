@@ -3,10 +3,12 @@ title: "Cinco De Mayo"
 date: 2018-05-06T19:53:31-04:00
 draft: false
 ---
+
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>Cinco de Mayo is the celebration of the victory of the Battle of Puebla on May 5th, 1862. Detroit holds a yearly parade in Mexican Town where they drive down the streets and throw candy for the kids.</p>
+    <p>Cinco de Mayo is the celebration of the victory of the Battle of Puebla on May 5th, 1862. Detroit holds a yearly
+    parade in Mexican Town where they drive down the streets and throw candy for the kids.</p>
 </div>
 
 <div class="content-shadow-container">

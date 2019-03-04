@@ -3,10 +3,12 @@ title: "Spain Day 4"
 date: 2018-09-04T00:22:16-04:00
 draft: false
 ---
+
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>My fourth day in Barcelona was a lot more relaxed. I only went to the beach and to my tattoo appointment for my daisies.</p>
+    <p>My fourth day in Barcelona was a lot more relaxed. I only went to the beach and to my tattoo appointment for my
+    daisies.</p>
 </div>
 
 <div class="content-shadow-container">

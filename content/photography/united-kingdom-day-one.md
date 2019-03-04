@@ -3,10 +3,12 @@ title: "United Kingdom Day 1"
 date: 2018-09-05T21:48:21-04:00
 draft: false
 ---
+
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>I arrived to Liverpool, UK in the afternoon and so most of my first day was spent getting my nails done and drinking coffee amongst other things.</p>
+    <p>I arrived to Liverpool, UK in the afternoon and so most of my first day was spent getting my nails done and drinking
+    coffee amongst other things.</p>
 </div>
 
 <div class="content-long-shadow-container">

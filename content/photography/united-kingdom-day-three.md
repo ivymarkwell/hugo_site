@@ -3,6 +3,7 @@ title: "United Kingdom Day 3"
 date: 2018-09-07T23:57:56-04:00
 draft: false
 ---
+
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
