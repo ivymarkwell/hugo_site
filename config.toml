@@ -55,3 +55,8 @@ pluralizeListTitles = false
     url = "https://www.linkedin.com/in/ivy-markwell-257540127"
     name = "linkedin"
     weight = 4
+
+[[menu.icon]]
+    url = "https://twitter.com/ivymarkwell"
+    name = "twitter"
+    weight = 5
