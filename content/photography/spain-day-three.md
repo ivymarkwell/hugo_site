@@ -1,5 +1,5 @@
 ---
-title: "Spain Day 3"
+title: "Barcelona, Spain"
 date: 2018-09-03T23:53:51-04:00
 draft: false
 ---
@@ -58,7 +58,7 @@ draft: false
 
 <div class="content-shadow-container">
     <a href="https://imagizer.imageshack.com/v2/640x480q90/923/g7BV1V.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/g7BV1V.jpg"/>
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/924/F1q2rJ.jpg"/>
     </a>
 </div>
 

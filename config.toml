@@ -8,13 +8,9 @@ pluralizeListTitles = false
 [params]
     author = "Ivy Markwell"
     description = "Software Engineer"
-    githubUsername = "#"
     accent = "black"
     backgroundColor = "#ffffff"
     font = "Roboto"
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
     custom_css = ["styles/common.css"]
 
 [[menu.main]]
@@ -60,3 +56,8 @@ pluralizeListTitles = false
     url = "https://twitter.com/ivymarkwell"
     name = "twitter"
     weight = 5
+
+[[menu.icon]]
+    url = "https://www.instagram.com/ivyymarkwell/"
+    name = "instagram"
+    weight = 6

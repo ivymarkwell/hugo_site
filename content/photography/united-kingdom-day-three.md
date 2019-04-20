@@ -1,5 +1,5 @@
 ---
-title: "United Kingdom Day 3"
+title: "Liverpool, UK - Cardiff, UK"
 date: 2018-09-07T23:57:56-04:00
 draft: false
 ---

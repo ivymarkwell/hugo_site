@@ -1,5 +1,5 @@
 ---
-title: "Spain Day 4"
+title: "Barcelona, Spain"
 date: 2018-09-04T00:22:16-04:00
 draft: false
 ---
