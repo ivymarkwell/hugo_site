@@ -2,7 +2,7 @@
 title: "Portraits"
 date: 2018-07-29T17:19:26-04:00
 weight: 100
-draft: false
+draft: true
 ---
 
 <link href="/styles/common.css" rel="stylesheet">
