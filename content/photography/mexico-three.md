@@ -1,6 +1,6 @@
 ---
 title: "San Miguel de Allende, Mexico"
-date: 2019-08-01T15:00:45-05:00
+date: 2019-07-31T15:00:45-05:00
 draft: false
 ---
 
