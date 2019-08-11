@@ -7,7 +7,7 @@ draft: false
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>We spent about three days in Guanajuato. I believe this pictures are from
+    <p>We spent about three days in Guanajuato. I believe these pictures are from
     our second day. We walked all over Guanajuato, saw the El Pipila statue, and
     took fun pictures with the street actors.</p>
 </div>
