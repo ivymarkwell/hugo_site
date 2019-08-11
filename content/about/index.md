@@ -6,8 +6,8 @@ draft: false
 
 <link href="/styles/common.css" rel="stylesheet">
 
-<div class="content-custom-long-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/1024x768q90/921/wgnxSd.jpg"/>
+<div class="content-long-shadow-container">
+    <img src="https://imagizer.imageshack.com/v2/800x600q90/921/wgnxSd.jpg"/>
 </div>
 
 <div class="content-description-container">
