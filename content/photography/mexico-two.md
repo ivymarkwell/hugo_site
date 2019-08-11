@@ -7,7 +7,7 @@ draft: false
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>My last day in León was spent looking at wedding dresses for one of my
+    <p>Our last day in León was spent looking at wedding dresses for one of my
     friend's wedding and traveling to San Miguel!</p>
 </div>
 

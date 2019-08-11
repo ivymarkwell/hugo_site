@@ -9,9 +9,9 @@ draft: false
 <div class="content-shadow-container center-title-container">
     <p>San Miguel de Allende is known as a town where Americans come to retire.
     It was definetely the "fancy" part of our trip. We did a lot more tourist
-    attractions in this town, visited shops, went to bars,
-    and saw the really beautiful Parroquia de San Miguel Arcángel, a giant church
-    in the center of San Miguel.</p>
+    attractions in this town, visited shops, went to bars, and saw the really
+    beautiful Parroquia de San Miguel Arcángel, a giant church in the center
+    of San Miguel.</p>
 </div>
 
 <div class="content-shadow-container">

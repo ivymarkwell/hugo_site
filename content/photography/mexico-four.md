@@ -1,79 +1,49 @@
 ---
 title: "Guanajuato, Mexico"
-date: 2019-08-02T15:15:04-05:00
+date: 2019-08-01T15:42:00-05:00
 draft: false
 ---
 
 <link href="/styles/common.css" rel="stylesheet">
 
 <div class="content-shadow-container center-title-container">
-    <p>We spent about three days in Guanajuato. I believe these pictures are from
-    our second day. We walked all over Guanajuato, saw the El Pipila statue, and
-    took fun pictures with the street actors.</p>
+    <p>We spent about three days in Guanajuato. This was the first night we got
+    to the city. We mostly walked around the main center, got food and settled into
+    our last city.</p>
 </div>
 
 <div class="content-long-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/924/uozS3O.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/924/uozS3O.jpg"/>
-    </a>
-</div>
-
-<div class="content-long-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/924/WHl5oX.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/924/WHl5oX.jpg"/>
-    </a>
-</div>
-
-<div class="content-long-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/DwOCE6.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/DwOCE6.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/23XwXA.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/23XwXA.jpg"/>
     </a>
 </div>
 
 <div class="content-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/924/KbvUJJ.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/924/KbvUJJ.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/NM1AJV.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/NM1AJV.jpg"/>
     </a>
 </div>
 
 <div class="content-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/924/QSvEEt.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/924/QSvEEt.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/ic2u5I.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/ic2u5I.jpg"/>
     </a>
 </div>
 
 <div class="content-long-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/bNzU43.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/bNzU43.jpg"/>
-    </a>
-</div>
-
-<div class="content-long-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/922/ObRNbz.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/922/ObRNbz.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/NjQg6k.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/NjQg6k.jpg"/>
     </a>
 </div>
 
 <div class="content-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/924/HqarHf.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/924/HqarHf.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/tWwMqf.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/tWwMqf.jpg"/>
     </a>
 </div>
 
 <div class="content-long-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/PYmdoq.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/PYmdoq.jpg"/>
-    </a>
-</div>
-
-<div class="content-long-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/Wtvp17.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/Wtvp17.jpg"/>
-    </a>
-</div>
-
-<div class="content-shadow-container">
-    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/nP2f29.jpg" target="_blank">
-        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/nP2f29.jpg"/>
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/3TVuqx.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/3TVuqx.jpg"/>
     </a>
 </div>
