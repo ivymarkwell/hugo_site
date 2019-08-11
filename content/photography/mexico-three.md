@@ -69,6 +69,12 @@ draft: false
 </div>
 
 <div class="content-long-shadow-container">
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/921/bQqLxA.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/921/bQqLxA.jpg"/>
+    </a>
+</div>
+
+<div class="content-long-shadow-container">
     <a href="https://imagizer.imageshack.com/v2/640x480q90/921/iOY03X.jpg" target="_blank">
         <img src="https://imagizer.imageshack.com/v2/640x480q90/921/iOY03X.jpg"/>
     </a>
