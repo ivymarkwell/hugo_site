@@ -1,63 +1,58 @@
-baseURL = "https://ivymarkwell.github.io/"
+baseurl = "https://ivymarkwell.github.io"
 languageCode = "en-us"
-title = "Ivy Markwell"
-theme = "minimal"
+theme = "hello-friend-ng"
 publishDir = "ivymarkwell.github.io"
 pluralizeListTitles = false
 
+[author]
+  name = "Ivy Markwell"
+
 [params]
-    author = "Ivy Markwell"
-    description = "Software Engineer"
-    accent = "black"
-    backgroundColor = "#ffffff"
-    font = "Roboto"
-    custom_css = ["styles/common.css"]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+  contentTypeName = "posts"
+  defaultTheme = "dark"
 
-[[menu.main]]
-    url = "/about/"
-    name = "About Me"
-    weight = 2
+  # Social icons
+  [[params.social]]
+    name = "email"
+    url  = "mailto:me@ivymarkwell.com"
 
-[[menu.main]]
-    url = "/photography/"
-    name = "Photography"
-    weight = 3
-
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
-
-[[menu.icon]]
-    url = "mailto:me@ivymarkwell.com"
-    name = "envelope-o"
-    weight = 1
-
-[[menu.icon]]
-    url = "https://github.com/ivymarkwell"
+  [[params.social]]
     name = "github"
-    weight = 2
+    url  = "https://github.com/ivymarkwell"
 
-[[menu.icon]]
-    url = "https://medium.com/@ivymarkwell"
-    name = "medium"
-    weight = 3
-
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/ivy-m-257540127/"
+  [[params.social]]
     name = "linkedin"
-    weight = 4
+    url  = "https://www.linkedin.com/in/ivy-m-257540127/"
 
-[[menu.icon]]
-    url = "https://twitter.com/ivymarkwell"
+  [[params.social]]
     name = "twitter"
-    weight = 5
+    url  = "https://twitter.com/ivymarkwell"
 
-[[menu.icon]]
-    url = "https://www.instagram.com/ivyymarkwell/"
+  [[params.social]]
     name = "instagram"
-    weight = 6
+    url  = "https://www.instagram.com/ivyymarkwell/"
+
+[languages]
+  [languages.en]
+    title = "Ivy Markwell"
+
+    [languages.en.params.logo]
+      logoText = "cd ivymarkwell/"
+      logoHomeLink = "/"
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "showcase"
+        name = "Photography"
+        url = "/photography"
+
