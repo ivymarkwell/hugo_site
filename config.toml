@@ -26,6 +26,10 @@ pluralizeListTitles = false
     url  = "https://github.com/ivymarkwell"
 
   [[params.social]]
+    name = "medium"
+    url  = "https://medium.com/@ivymarkwell"
+
+  [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/ivy-m-257540127/"
 
