@@ -1,6 +1,6 @@
 ---
 title: "London, UK"
-date: 2019-11-23T14:55:59-06:00
+date: 2019-11-09T14:55:59-06:00
 draft: false
 ---
 
