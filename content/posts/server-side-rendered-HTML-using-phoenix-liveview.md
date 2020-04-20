@@ -63,7 +63,7 @@ application.
 initial request of the application, create the client connection to the server
 via web sockets (this happens specifically in the `app.js` script), and also
 where the embeded LiveView layout will be rendered later using the `<%=
-@inner_content>` tag.
+@inner_content %>` tag.
 
 ![](https://cdn-images-1.medium.com/max/800/1*qetD22xhWGdQDQ44LkrrAA.png)
 <span class="figcaption_hack">`root.html.eex` file</span>
@@ -104,8 +104,7 @@ and also create the event handler in the LiveView, `minesweeper_live.ex` file
 itself that will update the state of our application to start the new game.
 
     // index.html.leex, live layout file
-    <span phx-click="restart-game" class="status <%=
-     %>"/>
+    <span phx-click="restart-game" class="status <%= @game_status %>"/>
 
     // minesweeper_live.ex, the LiveView file
     def handle_event("restart-game", _key, socket) do
