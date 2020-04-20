@@ -56,7 +56,13 @@ pluralizeListTitles = false
         name = "About"
         url = "/about"
       [[languages.en.menu.main]]
-        identifier = "showcase"
+        identifier = "photography"
         name = "Photography"
         url = "/photography"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+
+
 
