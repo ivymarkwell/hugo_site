@@ -9,7 +9,7 @@ draft: false
 <div class="content-shadow-container center-title-container">
     <p>Tootie</p>
     <p>2008 - 2020</p>
-    <p>My kitty soulmate. I love you.</p>
+    <p>My kitty soulmate.</p>
 </div>
 
 <div class="content-mobile-long-shadow-container">
