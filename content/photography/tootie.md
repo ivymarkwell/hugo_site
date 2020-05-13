@@ -36,6 +36,13 @@ draft: false
     </a>
 </div>
 
+<div class="content-long-shadow-container">
+    <a href="https://imagizer.imageshack.com/v2/640x480q90/923/l0LY3a.jpg" target="_blank">
+        <img src="https://imagizer.imageshack.com/v2/640x480q90/923/l0LY3a.jpg">
+    </a>
+</div>
+
+
 <div class="content-mobile-long-shadow-container">
     <a href="https://imagizer.imageshack.com/v2/640x480q90/922/9KNPOc.jpg" target="_blank">
         <img src="https://imagizer.imageshack.com/v2/640x480q90/922/9KNPOc.jpg">
