@@ -63,6 +63,3 @@ pluralizeListTitles = false
         identifier = "posts"
         name = "Posts"
         url = "/posts"
-
-
-
