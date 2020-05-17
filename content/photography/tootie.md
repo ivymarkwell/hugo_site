@@ -9,7 +9,7 @@ draft: false
 <div class="content-shadow-container center-title-container">
     <p>Tootie</p>
     <p>2008 - 2020</p>
-    <p>Some of the pictures I got to take over the years of my best friend.</p>
+    <p>Some pictures of my best friend.</p>
 </div>
 
 <div class="content-mobile-long-shadow-container">
