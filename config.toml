@@ -4,6 +4,11 @@ theme = "hello-friend-ng"
 publishDir = "ivymarkwell.github.io"
 pluralizeListTitles = false
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [author]
   name = "Ivy Markwell"
 
