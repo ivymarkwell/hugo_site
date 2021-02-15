@@ -38,14 +38,6 @@ pluralizeListTitles = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/ivy-m-257540127/"
 
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/ivymarkwell"
-
-  [[params.social]]
-    name = "instagram"
-    url  = "https://www.instagram.com/ivyymarkwell/"
-
 [languages]
   [languages.en]
     title = "Ivy Markwell"
