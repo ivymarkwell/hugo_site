@@ -6,7 +6,6 @@ draft: false
 
 <div class="content">
     <main class="posts">
-        <h1>Photography</h1>
         <div class="content-description-container">
             <p>Most pictures are taken with the <a href="https://smile.amazon.com/gp/product/B00T3ERFFW/">Canon EOS Rebel T6i Digital SLR</a> but some pictures I wanted to share are just taken from my iPhone.</p>
         </div>
