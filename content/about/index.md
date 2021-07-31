@@ -12,6 +12,6 @@ draft: false
 
 <div class="content-description-container">
     <p>I'm a Software Engineer</p>
-    <p>I love to crochet, game, travel and sometimes take pictures. In the past few years I've traveled to, in alphabetical order: Canada, Iceland, Mexico, Spain, Sweden, the UK and hopefully many more to come. If you go to my photography section right now you can find pictures from 2018 and onward.</p>
+    <p>I love to crochet, game, travel and sometimes take pictures.</p>
     <p>Feel free to reach out!</p>
 </div>
