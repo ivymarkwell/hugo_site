@@ -1,17 +1,15 @@
 ---
 title: "About Me"
-date: 2018-04-09T21:26:53-04:00
+date: 2025-03-23
 draft: false
 ---
 
-<link href="/styles/common.css" rel="stylesheet">
+:wave: Hello! I'm Ivy.
 
-<div class="content-long-shadow-container">
-    <img src="https://imagizer.imageshack.com/v2/800x600q90/923/afN9KR.jpg"/>
-</div>
+I am a web application focused software engineer. I primarily work in Elixir and React based projects.
 
-<div class="content-description-container">
-    <p>I'm a Software Engineer</p>
-    <p>I love to crochet, game, travel and sometimes take pictures.</p>
-    <p>Feel free to reach out!</p>
-</div>
+In my free time, I enjoy :video_game: gaming, :running: running, :yarn: crochet and I often foster kittens :cat: for Austin Pets Alive!
+
+Hopefully if you've stumbled across my site you get some benefit out of my posts. 
+
+Thanks for reading!

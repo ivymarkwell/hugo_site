@@ -1,10 +1,10 @@
----
-title: "Create and Deploying Your First Hugo Site to Github Pages"
-date: 2018-04-29T15:00:00-00:00
-draft: false
----
++++
+title =  'Create and Deploying Your First Hugo Site to Github Pages'
+draft = false
+date =  2018-04-29
++++
 
-### Creating and deploying your first Hugo site to Github pages
+<!--more-->
 
 ![](https://cdn-images-1.medium.com/max/2400/1*BDKgDXTBKX3z7x6ij5Z7xQ.jpeg)
 <span class="figcaption_hack">A local duck I photographed recently</span>

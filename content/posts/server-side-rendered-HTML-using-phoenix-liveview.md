@@ -1,10 +1,10 @@
----
-title: "Server Side Rendered HTML Using Phoenix Liveview"
-date: 2020-04-20T12:00:00-05:00
-draft: false
----
++++
+title =  'Server Side Rendered HTML Using Phoenix Liveview'
+draft = false
+date =  2020-04-20
++++
 
-### Server-side rendered HTML using Phoenix LiveView
+<!--more-->
 
 ![](https://cdn-images-1.medium.com/max/1200/1*u3zVa7gitgik5q_OYOm_2g.jpeg)
 <span class="figcaption_hack">“LiveView” television</span>

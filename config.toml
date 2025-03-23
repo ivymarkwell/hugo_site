@@ -1,25 +1,40 @@
 baseurl = "https://ivymarkwell.github.io"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "nightfall"
 publishDir = "ivymarkwell.github.io"
 pluralizeListTitles = false
+enableEmoji = true
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
 
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "posts"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
 [author]
   name = "Ivy Markwell"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
-
+  user = "me"
+  hostname = "ivymarkwell.com"
+  readingTime = false
   contentTypeName = "posts"
   defaultTheme = "dark"
+
+  [params.author]
+  name = "Ivy Markwell"
+  avatar = "/avatar.png"
+  avatarSize = "size-m"
+  email = "me@ivymarkwell.com"
 
   # Social icons
   [[params.social]]
@@ -37,22 +52,3 @@ pluralizeListTitles = false
   [[params.social]]
     name = "linkedin"
     url  = "https://www.linkedin.com/in/ivy-m-257540127/"
-
-[languages]
-  [languages.en]
-    title = "Ivy Markwell"
-
-    [languages.en.params.logo]
-      logoText = "cd ivymarkwell/"
-      logoHomeLink = "/"
-
-	# You can create a language based menu
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts"

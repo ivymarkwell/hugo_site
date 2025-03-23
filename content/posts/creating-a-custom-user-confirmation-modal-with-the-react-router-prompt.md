@@ -1,10 +1,10 @@
----
-title: "Creating a Custom User Confirmation Modal With the React Router Prompt"
-date: 2019-09-16T15:00:00-05:00
-draft: false
----
++++
+title = 'Creating a Custom User Confirmation Modal With the React Router Prompt'
+draft = false
+date =  2019-09-16
++++
 
-### Writing a custom UserConfirmation modal with the React Router Prompt
+<!--more-->
 
 ![](https://cdn-images-1.medium.com/max/2400/1*lYSWM1q3d5jGuZxGDK6iwQ.jpeg)
 <span class="figcaption_hack">A person up in arms about wanting custom modals in their Prompt component</span>
