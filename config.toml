@@ -20,9 +20,6 @@ theme = "nightfall"
     weight = 1
     url = "about"
 
-[author]
-  name = "Ivy Markwell"
-
 [params]
   user = "me"
   hostname = "ivymarkwell.com"
@@ -32,9 +29,6 @@ theme = "nightfall"
 
   [params.author]
   name = "Ivy Markwell"
-  avatar = "/avatar.png"
-  avatarSize = "size-m"
-  email = "me@ivymarkwell.com"
 
   # Social icons
   [[params.social]]
