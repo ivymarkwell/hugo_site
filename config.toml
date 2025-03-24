@@ -1,9 +1,9 @@
 baseurl = "https://ivymarkwell.github.io"
 languageCode = "en-us"
-theme = "nightfall"
 publishDir = "ivymarkwell.github.io"
 pluralizeListTitles = false
 enableEmoji = true
+theme = "nightfall"
 
 [markup]
   [markup.goldmark]
