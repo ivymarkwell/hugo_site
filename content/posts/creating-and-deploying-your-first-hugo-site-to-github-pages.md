@@ -1,5 +1,5 @@
 +++
-title =  'Create and Deploying Your First Hugo Site to Github Pages'
+title =  'Creating and Deploying Your First Hugo Site to Github Pages'
 draft = false
 date =  2018-04-29
 +++
