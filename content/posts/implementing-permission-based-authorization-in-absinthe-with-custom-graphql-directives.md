@@ -27,7 +27,7 @@ query getUser($id: ID!) {
 }
 ```
 
-There are many complex actions this can be broken into. The naive question in a REST system would be: does the user making the request have permission to `read` the exposed `user` object?
+There are many complex actions this can be broken into. The naive question in a REST system might be: does the user making the request have permission to `read` the exposed `user` object?
 
 In GraphQL we can get much more granular than just basic CRUD permissions. Does the user have access to `read` the `user` object? Does the user have access to `read` the exposed `address` field under the `user` object? What about any of the arguments being passed to our query? Does the user have access to pass the argument `id` in order to query a specific user?
 
