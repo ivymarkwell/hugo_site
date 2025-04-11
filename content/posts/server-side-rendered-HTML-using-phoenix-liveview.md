@@ -6,8 +6,10 @@ date =  2020-04-20
 
 <!--more-->
 
-![](https://cdn-images-1.medium.com/max/1200/1*u3zVa7gitgik5q_OYOm_2g.jpeg)
-<span class="figcaption_hack">“LiveView” television</span>
+<figure style="text-align: center;">
+    <img src="https://cdn-images-1.medium.com/max/1200/1*u3zVa7gitgik5q_OYOm_2g.jpeg" style="max-width: 100%; height: auto;" />
+    <figcaption style="margin-top: 0.5em;">“LiveView” television</figcaption>
+</figure>
 
 After attending the 2019 Lone Star Elixir conference in Austin, Texas and
 hearing the release of Phoenix LiveView announced, I decided I wanted to jump on
@@ -56,8 +58,10 @@ Understanding LiveView for me really came down to these 3 files:
 * `router.ex` — where we assign our LiveView and define the root layout for our
 application.
 
-![](https://cdn-images-1.medium.com/max/800/1*9qd9hZihawqZYwLli5LaGw.png)
-<span class="figcaption_hack">`router.ex` file</span>
+<figure style="text-align: center;">
+    <img src='https://cdn-images-1.medium.com/max/800/1*9qd9hZihawqZYwLli5LaGw.png' style="max-width: 100%; height: auto;" />
+    <figcaption style="margin-top: 0.5em;">`router.ex` file</figcaption>
+</figure>
 
 * `root.html.eex` — our root layout. This is the view that will be rendered on the
 initial request of the application, create the client connection to the server
@@ -65,16 +69,20 @@ via web sockets (this happens specifically in the `app.js` script), and also
 where the embeded LiveView layout will be rendered later using the `<%=
 @inner_content %>` tag.
 
-![](https://cdn-images-1.medium.com/max/800/1*qetD22xhWGdQDQ44LkrrAA.png)
-<span class="figcaption_hack">`root.html.eex` file</span>
+<figure style="text-align: center;">
+    <img src='https://cdn-images-1.medium.com/max/800/1*qetD22xhWGdQDQ44LkrrAA.png' style="max-width: 100%; height: auto;" />
+    <figcaption style="margin-top: 0.5em;">`root.html.eex` file</figcaption>
+</figure>
 
 * `*_live.ex` — the “LiveView”. This is where the state of the application is
 iterated on and where the LiveView layout, `.leex` template extension, gets
 rendered using the `render/1` function. `render/1` can return inline HTML or an
 `index.html.leex` file.
 
-![](https://cdn-images-1.medium.com/max/800/1*w7skEA13qmFFGuO0-WYIQg.png)
-<span class="figcaption_hack">`*_live.ex` file</span>
+<figure style="text-align: center;">
+    <img src='https://cdn-images-1.medium.com/max/800/1*w7skEA13qmFFGuO0-WYIQg.png' style="max-width: 100%; height: auto;" />
+    <figcaption style="margin-top: 0.5em;">`*_live.ex` file</figcaption>
+</figure>
 
 ### Recreating Minesweeper and implementing event handlers
 
@@ -94,8 +102,10 @@ Meaning that we can access a particular state key by using
 `socket.assigns.state_key` (in the LiveView itself) or by accessing it in the
 LiveView template with the notation `@state_key`.
 
-![](https://cdn-images-1.medium.com/max/800/1*8mujz9tJaEc_gDYH1xlqlg.png)
-<span class="figcaption_hack">Minesweeper!</span>
+<figure style="text-align: center;">
+    <img src='https://cdn-images-1.medium.com/max/800/1*8mujz9tJaEc_gDYH1xlqlg.png' style="max-width: 100%; height: auto;" />
+    <figcaption style="margin-top: 0.5em;">Minesweeper!</figcaption>
+</figure>
 
 Let’s go through an example! A really simple feature is that clicking the face
 on the board will start a new game. In order to do this we need to add an event
@@ -103,21 +113,23 @@ binding in our Live layout, `index.html.leex`, that will listen to click events,
 and also create the event handler in the LiveView, `minesweeper_live.ex` file
 itself that will update the state of our application to start the new game.
 
-    // index.html.leex, live layout file
-    <span phx-click="restart-game" class="status <%= @game_status %>"/>
+```elixir
+# index.html.leex, live layout file
+<span phx-click="restart-game" class="status <%= @game_status %>"/>
 
-    // minesweeper_live.ex, the LiveView file
-    def handle_event("restart-game", _key, socket) do
-       # randomly generate initial mines with random coordinates
-       random_initial_x = Enum.random(1..@rows)
-       random_initial_y = Enum.random(1..@columns)
+# minesweeper_live.ex, the LiveView file
+def handle_event("restart-game", _key, socket) do
+   # randomly generate initial mines with random coordinates
+   random_initial_x = Enum.random(1..@rows)
+   random_initial_y = Enum.random(1..@columns)
 
-       new_socket =
-          socket
-          |> new_game(random_initial_x, random_initial_y)
+   new_socket =
+      socket
+      |> new_game(random_initial_x, random_initial_y)
 
-       {:noreply, new_socket}
-    end
+   {:noreply, new_socket}
+end
+```
 
 To keep things simple, we can determine whether we’ve started a new game by
 looking only at the `@game_status` socket value. `@game_status` is one of the
@@ -144,12 +156,14 @@ So in the above code snippet, `new_game/3` is actually just a function that
 returns the output of the `assign/3` function with the new state attributes like
 this:
 
-    defp new_game(socket, _, _) do
-       assign(socket,
-          game_status: "alive",
-          ...
-       )
-    end
+```elixir
+defp new_game(socket, _, _) do
+   assign(socket,
+      game_status: "alive",
+      ...
+   )
+end
+```
 
 And just like that, we’ve created a click event handler that will start a new
 game!

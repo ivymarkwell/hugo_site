@@ -1,13 +1,15 @@
 +++
-title =  'Creating and Deploying Your First Hugo Site to Github Pages'
+title = 'Creating and Deploying Your First Hugo Site to Github Pages'
 draft = false
 date =  2018-04-29
 +++
 
 <!--more-->
 
-![](https://cdn-images-1.medium.com/max/2400/1*BDKgDXTBKX3z7x6ij5Z7xQ.jpeg)
-<span class="figcaption_hack">A local duck I photographed recently</span>
+<figure style="text-align: center;">
+    <img src='https://cdn-images-1.medium.com/max/2400/1*BDKgDXTBKX3z7x6ij5Z7xQ.jpeg' style="max-width: 100%; height: auto;" />
+    <figcaption style="margin-top: 0.5em;">A local duck I photographed recently</figcaption>
+</figure>
 
 This is a comprehensive guide for creating your first static site using Hugo and
 hosting it on GitHub pages.
@@ -23,7 +25,9 @@ Now you can run these commands to make your first site.
 And there you go! You’ve created your first Hugo site. I mean, there’s nothing
 in it, but still! Let’s take a look.
 
-    hugo server -D
+```bash
+hugo server -D
+```    
 
 Your web server by default should be hosted at
 [http://localhost:1313/.](http://localhost:1313/)
@@ -37,7 +41,9 @@ I, use [Minimal](https://themes.gohugo.io/minimal/), so let’s start there. Fir
 we need to initialize our Github repo, add the theme as a submodule in
 `themes/minimal` and copy the default config file for that theme.
 
-    git init
+```bash
+git init
+```
 
 Now when you host your server, you should notice that you have the exact [demo
 page](https://themes.gohugo.io/theme/minimal/) shown on the theme’s page.
@@ -70,10 +76,11 @@ First, let’s sync our repo and our code base and add
 `<github_username.github.io>` as a submodule to our existing repo just like our
 theme.
 
-    git remote add origin
-    :<github_username>/hugo_site.git
-    git add .
-    git commit -m "Initial commit for our Hugo site."
+```bash
+git remote add origin:<github_username>/hugo_site.git
+git add .
+git commit -m "Initial commit for our Hugo site."
+```
 
 Remember, this only pushes to `hugo_site` . We still need to generate our html
 pages for our `<github_username>` repo. Hugo already has a built in command,
@@ -83,14 +90,15 @@ pages for our `<github_username>` repo. Hugo already has a built in command,
 
 Open your `config.toml`:
 
-    baseURL = "
-    "
-    languageCode = "en-us"
-    title = "Minimal"
-    theme = "minimal"
-    disqusShortname = "username" # delete this to disable disqus comments
-    googleAnalytics = ""
-    publishDir = "<github_username>.github.io"
+```yaml
+baseURL = ""
+languageCode = "en-us"
+title = "Minimal"
+theme = "minimal"
+disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
+publishDir = "<github_username>.github.io"
+```
 
 The default `config.toml` for the Minimal theme should look a little like this.
 However, here we added in `publishDir`. This tells Hugo where to create our HTML
@@ -98,7 +106,9 @@ files from the content in our Hugo site.
 
 Let’s generate them by running the following command:
 
-    hugo
+```bash
+hugo
+```
 
 And that should be it. Hugo already comes built with a simple command to
 generate the HTML from any of the customizable content in your site. If you look
@@ -108,18 +118,20 @@ files, stuff that Github pages understands!
 Before we finally deploy, we need to make sure our remotes our set up correctly
 one last time.
 
-    cd <github_username>.github.io
-    git remote -v
-    > origin
-    :<github_username>/<github_username>.github.io.git (fetch)
-    > origin
-    :<github_username>/<github_username>.github.io.git (push)
+```bash
+cd <github_username>.github.io
+git remote -v
+> origin:<github_username>/<github_username>.github.io.git (fetch)
+> origin:<github_username>/<github_username>.github.io.git (push)
+```
 
 Now let’s host it!
 
-    git add .
-    git commit -m "Oh my goodness, I'm hosting my first Hugo website!"
-    git push origin master
+```bash
+git add .
+git commit -m "Oh my goodness, I'm hosting my first Hugo website!"
+git push origin master
+```
 
 Go to your Github page `<github_username>.github.io`. You should see your very
 own custom Hugo site!

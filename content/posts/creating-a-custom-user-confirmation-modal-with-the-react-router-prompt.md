@@ -6,10 +6,12 @@ date =  2019-09-16
 
 <!--more-->
 
-![](https://cdn-images-1.medium.com/max/2400/1*lYSWM1q3d5jGuZxGDK6iwQ.jpeg)
-<span class="figcaption_hack">A person up in arms about wanting custom modals in their Prompt component</span>
+<figure style="text-align: center;">
+    <img src='https://cdn-images-1.medium.com/max/2400/1*lYSWM1q3d5jGuZxGDK6iwQ.jpeg' style="max-width: 100%; height: auto;" />
+    <figcaption style="margin-top: 0.5em;">A person up in arms about wanting custom modals in their Prompt component</figcaption>
+</figure>
 
-This is a short walkthrough on how to use React-Router’s v5 `Prompt `component
+This is a short walkthrough on how to use React-Router’s v5 `Prompt` component
 to replace the built in user confirmation window object with your own custom
 `UserConfirmation` modal.
 
@@ -35,9 +37,11 @@ confirmation window which comes from the initialization of `getUserConfirmation`
 from `getConfirmation` defined in `DomUtils`. This is where the default modal
 gets defined as a window object.
 
-    export function getConfirmation(message, callback) {
-       callback(window.confirm(message));
-    }
+```javascript
+export function getConfirmation(message, callback) {
+   callback(window.confirm(message));
+}
+```
 
 ### Creating our Custom UserConfirmation modal
 
@@ -56,36 +60,38 @@ rendering your own custom `UserConfirmation` (even if it might not exist yet).
 
 So let’s make it happen!
 
-    import React from "react";
-    import ReactDOM from "react-dom";
-    import { Dialog } from "evergreen-ui"
+```javascript
+import React from "react";
+import ReactDOM from "react-dom";
+import { Dialog } from "evergreen-ui";
 
-    const UserConfirmation = (message, callback) => {
-       const container = document.createElement("div");
-       container.setAttribute("custom-confirmation-navigation", "");
-       document.body.appendChild(container);
+const UserConfirmation = (message, callback) => {
+  const container = document.createElement("div");
+  container.setAttribute("custom-confirmation-navigation", "");
+  document.body.appendChild(container);
 
-       const closeModal = (callbackState) => {
-          ReactDOM.unmountComponentAtNode(container);
-          callback(callbackState);
-       };
+  const closeModal = (callbackState) => {
+    ReactDOM.unmountComponentAtNode(container);
+    callback(callbackState);
+  };
 
-       ReactDOM.render(
-          <Dialog
-             cancelLabel="Cancel"
-             confirmLabel="Confirm"
-             isShown={true}
-             onCacel={() => closeModal(false)}
-             onConfirm={() => closeModal(true)}
-             title="Warning"
-          >
-           {message}
-          </Dialog>,
-       container
-      );
-    };
+  ReactDOM.render(
+    <Dialog
+      cancelLabel="Cancel"
+      confirmLabel="Confirm"
+      isShown={true}
+      onCancel={() => closeModal(false)}
+      onConfirm={() => closeModal(true)}
+      title="Warning"
+    >
+      {message}
+    </Dialog>,
+    container
+  );
+};
 
-    export default UserConfirmation;
+export default UserConfirmation;
+```
 
 There are a few key things that we needed to happen in our custom component
 besides the UI. Since `BrowserRouter` and our custom component is rendered a
@@ -112,45 +118,49 @@ want additional customization of the modal that go outside the two props that
 are given to us.
 
 Sadly, that is a legitimate concern. We can attempt to alleviate this a little
-by a manipulating our `message` prop. Our `Prompt` component will only accept a
+by manipulating our `message` prop. Our `Prompt` component will only accept a
 string into `message`. So what we can do here is pass in a stringified JSON
 object with key-value pairs of things we’d like to have additional control over
 and then parse them out later.
 
-    <Prompt
-       when={when}
-       message={
-          JSON.stringify(
-             `{
-               "confirmText": "Continue",
-               "messageText": "It looks like you might have some unsaved
-                           changes! Are you sure you want to continue?",
-               "cancelText": "Do not Continue"
-              }`
-          )
-       }
-    />
+```javascript
+<Prompt
+   when={when}
+   message={
+      JSON.stringify(
+         `{
+           "confirmText": "Continue",
+           "messageText": "It looks like you might have some unsaved
+                       changes! Are you sure you want to continue?",
+           "cancelText": "Do not continue"
+          }`
+      )
+   }
+/>
+```
 
 Then in our `UserConfirmation` modal instead of using `message` directly to
 display text we need to create a `textObj` that we use to reference our
 customized text keys.
 
-    const textObj = JSON.parse(message);
+```javascript
+const textObj = JSON.parse(message);
 
-    <Dialog
-       cancelLabel={textObj.cancelText}
-       confirmLabel={textObj.confirmText}
-       isShown={true}
-       onCacel={() => closeModal(false)}
-       onConfirm={() => closeModal(true)}
-       title="Warning"
-    >
-       {textObj.messageText}
-    </Dialog>
+<Dialog
+   cancelLabel={textObj.cancelText}
+   confirmLabel={textObj.confirmText}
+   isShown={true}
+   onCancel={() => closeModal(false)}
+   onConfirm={() => closeModal(true)}
+   title="Warning"
+>
+   {textObj.messageText}
+</Dialog>
+```
 
-Now we’re at least going beyond a one dimensional modal that only allows us to
+Now we’re at least going beyond a one-dimensional modal that only allows us to
 customize the prompt message displayed to the user. Similarly, you could use the
-message prop to conditionally determine what to render. If we hadn’t passed for
+`message` prop to conditionally determine what to render. If we hadn’t passed for
 example a `cancelText`, then in our Evergreen `Dialog` we could choose to set
 `hasCancel` to false so we’re only rendering a confirm button and not a close
 icon.
