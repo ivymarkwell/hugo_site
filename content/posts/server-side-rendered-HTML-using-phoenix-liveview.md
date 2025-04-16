@@ -6,6 +6,8 @@ date =  2020-04-20
 
 <!--more-->
 
+<link href="/styles/common.css" rel="stylesheet">
+
 <figure style="text-align: center;">
     <img src="https://cdn-images-1.medium.com/max/1200/1*u3zVa7gitgik5q_OYOm_2g.jpeg" style="max-width: 100%; height: auto;" />
     <figcaption style="margin-top: 0.5em;">“LiveView” television</figcaption>

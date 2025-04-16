@@ -6,6 +6,8 @@ date =  2018-04-29
 
 <!--more-->
 
+<link href="/styles/common.css" rel="stylesheet">
+
 <figure style="text-align: center;">
     <img src='https://cdn-images-1.medium.com/max/2400/1*BDKgDXTBKX3z7x6ij5Z7xQ.jpeg' style="max-width: 100%; height: auto;" />
     <figcaption style="margin-top: 0.5em;">A local duck I photographed recently</figcaption>

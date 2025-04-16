@@ -6,6 +6,8 @@ date = 2025-04-11
 
 <!--more-->
 
+<link href="/styles/common.css" rel="stylesheet">
+
 <figure style="text-align: center;">
     <img src="https://www.outcyders.net/images/quizzes/22/question10.jpg" style="max-width: 100%; height: auto;" />
     <figcaption style="margin-top: 0.5em;">Who's That User?</figcaption>
